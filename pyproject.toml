@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ratsinfo"
+version = "0.1.0"
+description = "Scraper for getting all the data from Ratsinformationssystem Gelsenkirchen"
+authors = ["Volker Schwaberow <volker@schwaberow.de>"]
+license = "Apache 2.0/MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^4.9.2"
+requests = "^2.30.0"
+
+[tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
